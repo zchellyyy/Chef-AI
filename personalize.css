@@ -1,0 +1,120 @@
+#main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Recipe Manager Styles */
+.recipe-manager {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 25px;
+}
+
+.recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.add-recipe-btn {
+    background-color: #AB886D;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.additional-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 25px;
+}
+
+.add-recipe-btn:hover {
+    background-color: #8A6D56;
+    color: white;
+}
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.recipe-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.recipe-body {
+    padding: 15px;
+}
+
+.recipe-title {
+    font-weight: 600;
+    color: #6C4E31;
+    margin-bottom: 8px;
+}
+
+.recipe-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+.recipe-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    flex: 1;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.view-btn {
+    background-color: #FFDBB5;
+    color: #6C4E31;
+}
+
+.edit-btn {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+    border: none;
+}
+
+.form-control, .form-select {
+    border-radius: 6px;
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+}
