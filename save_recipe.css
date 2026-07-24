@@ -1,0 +1,37 @@
+.recipe-container {
+    max-width: 800px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+}
+.recipe-container img {
+    max-width: 200px;
+    border-radius: 8px;
+}
+h2 {
+    margin-top: 0;
+    font-family: Verdana;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.update-btn {
+    margin-top: 20px;
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
